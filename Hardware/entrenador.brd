@@ -55,7 +55,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -2981,6 +2981,7 @@
 <rectangle x1="36.28898125" y1="22.32025" x2="36.47948125" y2="22.38375" layer="22"/>
 <rectangle x1="36.54551875" y1="22.32025" x2="36.60901875" y2="22.38375" layer="22"/>
 <text x="63.9445" y="72.8345" size="1.778" layer="16" rot="MR0">V1.1</text>
+<text x="3.175" y="-12.065" size="2.54" layer="48">Entrenador Basico para Arduino Micro. </text>
 </plain>
 <libraries>
 <library name="adafruit">

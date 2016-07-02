@@ -7117,6 +7117,28 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <rectangle x1="2.286" y1="-6.35" x2="4.445" y2="-5.842" layer="21"/>
 <rectangle x1="-4.445" y1="-6.35" x2="-2.286" y2="-5.842" layer="21"/>
 </package>
+<package name="SLIDEPOT-60">
+<wire x1="30.0006" y1="4.500896875" x2="30.0006" y2="-4.499103125" width="0.127" layer="21"/>
+<wire x1="-29.9994" y1="-4.499103125" x2="-29.9994" y2="4.500896875" width="0.127" layer="21"/>
+<circle x="-27.9994" y="0.000896875" radius="1" width="0.127" layer="21"/>
+<circle x="28.0006" y="0.000896875" radius="1" width="0.127" layer="21"/>
+<wire x1="26.0006" y1="1.500896875" x2="26.0006" y2="-1.499103125" width="0.127" layer="21"/>
+<wire x1="-25.9994" y1="-1.499103125" x2="-25.9994" y2="1.500896875" width="0.127" layer="21"/>
+<pad name="P$1" x="-23.8994" y="4.200896875" drill="1.7" diameter="2.54"/>
+<pad name="P$2" x="23.9006" y="4.200896875" drill="1.7" diameter="2.54"/>
+<pad name="P$3" x="-25.0994" y="-4.199103125" drill="1.7" diameter="2.54"/>
+<pad name="P$4" x="25.1006" y="-4.199103125" drill="1.7" diameter="2.54"/>
+<pad name="C" x="29.2506" y="1.750896875" drill="1.2" diameter="2.1844"/>
+<pad name="A" x="-29.2494" y="1.750896875" drill="1.2" diameter="2.1844"/>
+<pad name="B" x="-29.2494" y="-1.749103125" drill="1.2" diameter="2.1844"/>
+<text x="-9.9994" y="5.000896875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-10.4994" y="-6.499103125" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="0.0006" y="0.000896875" size="1.27" layer="21" font="vector">60MM</text>
+<wire x1="-30" y1="4.5" x2="30" y2="4.5" width="0.127" layer="21"/>
+<wire x1="30" y1="-4.5" x2="-30" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-26" y1="-1.5" x2="26" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="26" y1="1.5" x2="-26" y2="1.5" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TRIM">
@@ -7353,6 +7375,16 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 </technologies>
 </device>
 <device name="3386" package="TRIM-3386">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SLIDEPOT-60" package="SLIDEPOT-60">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="E" pad="C"/>
+<connect gate="G$1" pin="S" pad="B"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14779,7 +14811,7 @@ DIO-08053</description>
 </class>
 </classes>
 <parts>
-<part name="TM1" library="adafruit" deviceset="TRIM" device="SLIDE45" value="10K"/>
+<part name="TM1" library="adafruit" deviceset="TRIM" device="SLIDEPOT-60" value="10K"/>
 <part name="D1" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="D2" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="D3" library="adafruit" deviceset="LED" device="5MM"/>

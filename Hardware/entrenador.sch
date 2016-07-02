@@ -14956,7 +14956,7 @@ DIO-08053</description>
 <instance part="L5" gate="G$1" x="177.8" y="2.54"/>
 <instance part="L6" gate="G$1" x="281.94" y="2.54"/>
 <instance part="L7" gate="G$1" x="304.8" y="2.54"/>
-<instance part="U$2" gate="G$1" x="0" y="129.54"/>
+<instance part="U$2" gate="G$1" x="198.12" y="119.38"/>
 <instance part="MOTOR2" gate="G$1" x="424.18" y="91.44"/>
 <instance part="MOTOR1" gate="G$1" x="383.54" y="93.98"/>
 <instance part="LED1" gate="G$1" x="175.26" y="88.9"/>
@@ -15018,10 +15018,10 @@ DIO-08053</description>
 <instance part="SUPPLY40" gate="1" x="259.08" y="22.86"/>
 <instance part="SUPPLY41" gate="1" x="279.4" y="22.86"/>
 <instance part="SUPPLY42" gate="1" x="299.72" y="22.86"/>
-<instance part="SUPPLY43" gate="GND" x="17.78" y="119.38"/>
-<instance part="S5" gate="1" x="27.94" y="134.62"/>
-<instance part="C8" gate="G$1" x="45.72" y="129.54"/>
-<instance part="SUPPLY46" gate="GND" x="45.72" y="119.38"/>
+<instance part="SUPPLY43" gate="GND" x="215.9" y="109.22"/>
+<instance part="S5" gate="1" x="226.06" y="124.46"/>
+<instance part="C8" gate="G$1" x="243.84" y="119.38"/>
+<instance part="SUPPLY46" gate="GND" x="243.84" y="109.22"/>
 <instance part="U$8" gate="G$1" x="53.34" y="15.24" rot="R270"/>
 <instance part="SUPPLY52" gate="GND" x="81.28" y="0"/>
 <instance part="SUPPLY53" gate="1" x="20.32" y="12.7"/>
@@ -15056,7 +15056,7 @@ DIO-08053</description>
 <instance part="SUPPLY50" gate="GND" x="205.74" y="45.72"/>
 <instance part="SUPPLY51" gate="GND" x="236.22" y="45.72"/>
 <instance part="S9" gate="1" x="261.62" y="71.12"/>
-<instance part="D5" gate="G$1" x="38.1" y="132.08"/>
+<instance part="D5" gate="G$1" x="236.22" y="121.92"/>
 <instance part="C9" gate="G$1" x="347.98" y="160.02"/>
 <instance part="SUPPLY2" gate="GND" x="347.98" y="152.4"/>
 </instances>
@@ -15255,19 +15255,19 @@ DIO-08053</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="RING"/>
-<wire x1="5.08" y1="127" x2="10.16" y2="127" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="116.84" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="RING_SW"/>
-<wire x1="10.16" y1="127" x2="15.24" y2="127" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="129.54" x2="7.62" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="129.54" x2="10.16" y2="127" width="0.1524" layer="91"/>
-<junction x="10.16" y="127"/>
-<wire x1="15.24" y1="127" x2="17.78" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="124.46" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="116.84" x2="213.36" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="119.38" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="119.38" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
+<junction x="208.28" y="116.84"/>
+<wire x1="213.36" y1="116.84" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="114.3" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY43" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="-"/>
-<wire x1="45.72" y1="124.46" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="114.3" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY46" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -15886,8 +15886,8 @@ DIO-08053</description>
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
 <pinref part="C8" gate="G$1" pin="+"/>
-<wire x1="40.64" y1="132.08" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
-<label x="45.72" y="134.62" size="1.778" layer="95"/>
+<wire x1="238.76" y1="121.92" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
+<label x="243.84" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="429.26" y1="139.7" x2="457.2" y2="139.7" width="0.1524" layer="91"/>
@@ -15905,9 +15905,9 @@ DIO-08053</description>
 <net name="N$24" class="0">
 <segment>
 <pinref part="S5" gate="1" pin="P"/>
-<wire x1="22.86" y1="132.08" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="121.92" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="TIP"/>
-<wire x1="5.08" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -16049,7 +16049,7 @@ DIO-08053</description>
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
 <pinref part="S5" gate="1" pin="S"/>
-<wire x1="35.56" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="121.92" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">

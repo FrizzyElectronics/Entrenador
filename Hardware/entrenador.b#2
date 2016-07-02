@@ -2980,7 +2980,6 @@
 <rectangle x1="36.16451875" y1="22.32025" x2="36.22801875" y2="22.38375" layer="22"/>
 <rectangle x1="36.28898125" y1="22.32025" x2="36.47948125" y2="22.38375" layer="22"/>
 <rectangle x1="36.54551875" y1="22.32025" x2="36.60901875" y2="22.38375" layer="22"/>
-<text x="62.4205" y="72.7075" size="1.778" layer="16" rot="MR0">V1.1</text>
 </plain>
 <libraries>
 <library name="adafruit">
