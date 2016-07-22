@@ -1,0 +1,69 @@
+Partlist
+
+Exported from entrenador.brd at 22/07/2016 21:07
+
+EAGLE Version 7.3.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value                       Package           Library                    Position (inch)       Orientation
+
+C1       100n                        C0805             adafruit                   (4.6875 2.3875)       R270
+C2       100n                        C0805             adafruit                   (4.6875 2.1375)       R270
+C3       100n                        C0805             adafruit                   (4.6875 1.8875)       R270
+C4       100n                        C0805             adafruit                   (4.6875 1.6375)       R270
+C5       100n                        C0805             adafruit                   (4.6875 1.3875)       R270
+C6       100n                        C0805             adafruit                   (4.6875 1.1375)       R270
+C7       100n                        C0805             adafruit                   (4.6875 0.8875)       R270
+C8       100uF                       175TMP-0808       adafruit                   (1.9375 2.8)          R270
+C9       0.02uF                      0603-CAP          SparkFun-Passives          (1.1625 0.4875)       R270
+C11      2.2uF                       0603-CAP          SparkFun-Passives          (1.3125 0.4625)       R270
+C12      0.01uF                      0603-CAP          SparkFun-Passives          (1.575 0.85)          MR0
+C14      10uF                        C0805K            adafruit                   (1.3 0.9375)          MR90
+D1                                   LED5MM            adafruit                   (2.4 1.9375)          R90
+D2                                   LED5MM            adafruit                   (2.1 1.6375)          R90
+D3                                   LED5MM            adafruit                   (2.7 1.6375)          R90
+D4                                   LED5MM            adafruit                   (2.4 1.3375)          R90
+D5       MBRA140                     SMA-DIODE         SparkFun-DiscreteSemi      (1.625 2.625)         R0
+JP3                                  1X04/90           pinhead                    (3.55 3)              R0
+JP4                                  1X03/90           pinhead                    (3.1375 3)            R0
+JP5                                  1X03/90           pinhead                    (2.775 3)             R0
+L1       WS2812B                     WS2812B           adafruit                   (4.4375 1.8875)       R0
+L2       WS2812B                     WS2812B           adafruit                   (4.4375 1.6375)       R0
+L3       WS2812B                     WS2812B           adafruit                   (4.4375 1.3875)       R0
+L4       WS2812B                     WS2812B           adafruit                   (4.4375 1.1375)       R0
+L5       WS2812B                     WS2812B           adafruit                   (4.4375 0.8875)       R0
+L6       WS2812B                     WS2812B           adafruit                   (4.4375 2.1375)       R0
+L7       WS2812B                     WS2812B           adafruit                   (4.4375 2.3875)       R0
+LDR1                                 LDR338-54C        gm-resistors               (3.225 0.825)         R0
+LED1     RGBLED5050                  RGBLED5050        adafruit                   (2.4 1.6375)          R0
+MOTOR1                               1X02/90           pinhead                    (2.0625 0.25)         R180
+MOTOR2                               1X02/90           pinhead                    (2.7375 0.25)         R180
+R1       330                         M0805             rcl                        (2.225 1.3375)        R90
+R2       330                         M0805             rcl                        (2.875 1.6375)        R90
+R3       330                         M0805             rcl                        (1.9125 1.625)        R90
+R4       330                         M0805             rcl                        (2.1875 1.9)          R90
+R5       4k7                         M0805             rcl                        (3.6 1.6375)          R270
+R6       4k7                         M0805             rcl                        (2.775 0.825)         R270
+R7       4k7                         M0805             rcl                        (2.0375 2.4875)       R270
+R8       4k7                         M0805             rcl                        (1.5375 1.325)        R0
+R10      100k                        M0805             rcl                        (3.4875 0.8125)       R90
+R11      330                         M0805             rcl                        (1.925 1.9)           R90
+R12      330                         M0805             rcl                        (2.1 1.9)             R90
+R13      330                         M0805             rcl                        (2.0125 1.9)          R90
+S1                                   B3F-40XX-ROUND    adafruit                   (1.5625 1.6375)       R0
+S2                                   B3F-40XX-ROUND    adafruit                   (2.4 2.475)           R0
+S3                                   B3F-40XX-ROUND    adafruit                   (2.4 0.8)             R0
+S4                                   B3F-40XX-ROUND    adafruit                   (3.2375 1.6375)       R0
+S5                                   SWITCH-SPST-SMD-A SparkFun-Electromechanical (1.5625 2.95)         R0
+S6                                   SS-12F44G4        SparkFun-Electromechanical (3.6625 2.4625)       R270
+S7                                   SS-12F44G4        SparkFun-Electromechanical (3.1375 2.4625)       R270
+S8                                   SS-12F44G4        SparkFun-Electromechanical (2.875 2.4625)        R270
+S9                                   SS-12F44G4        SparkFun-Electromechanical (3.4 2.4625)          R270
+SG1      BUZZERPTH-KIT               BUZZER-12MM-KIT   SparkFun-Electromechanical (1.5625 2.2125)       R0
+TM1      10K                         SLIDEPOT-60       adafruit                   (4.0375 1.6375)       R270
+U$1      SN74LVC1G19SN74LVC1G19-DBVR SOT23-6           frizzy                     (1.2125 0.625)        R270
+U$2      2.1MMJACKTHM                PJ-102A           adafruit                   (1.175 3.05)          R0
+U$8      ARDUINOMICRO                ARDUINOMICRO      adafruit                   (0.5875 1.6375)       R270
+U$9      SN74LVC1G19SN74LVC1G19-DBVR SOT23-6           frizzy                     (1.2125 0.75)         R270
+U1       DRV8833                     PWP16             DRV8833                    (1.575 0.6875)        R90
