@@ -17933,7 +17933,8 @@ DIO-08053</description>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
-<label x="441.96" y="124.46" size="1.778" layer="95"/>
+<wire x1="447.04" y1="129.54" x2="447.04" y2="127" width="0.1524" layer="91"/>
+<label x="444.5" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -18134,6 +18135,7 @@ DIO-08053</description>
 <approved hash="113,1,87.5549,99.06,LDR1,,,,,"/>
 <approved hash="113,1,423.476,94.1112,MOTOR2,,,,,"/>
 <approved hash="113,1,382.836,96.6512,MOTOR1,,,,,"/>
+<approved hash="113,1,128.27,168.918,S5,,,,,"/>
 <approved hash="113,1,265.43,54.6185,S6,,,,,"/>
 <approved hash="113,1,194.31,54.6185,S7,,,,,"/>
 <approved hash="113,1,227.33,54.6185,S8,,,,,"/>
