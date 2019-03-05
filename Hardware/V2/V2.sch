@@ -1,0 +1,314 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "zondag 28 september 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U2-AU U?
+U 1 1 5C7E7F20
+P 2550 2500
+F 0 "U?" H 2550 1014 50  0000 C CNN
+F 1 "ATmega32U2-AU" H 2550 923 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 2550 2500 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf" H 2550 2500 50  0001 C CNN
+	1    2550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Switches:JOYSTICK_MINI S?
+U 1 1 5C7E81C0
+P 5650 1300
+F 0 "S?" H 5650 1760 45  0000 C CNN
+F 1 "JOYSTICK_MINI" H 5650 1676 45  0000 C CNN
+F 2 "JOYSTICK_MINI" H 5650 1600 20  0001 C CNN
+F 3 "" H 5650 1300 50  0001 C CNN
+F 4 "SWCH-09905" H 5650 1581 60  0000 C CNN "Campo4"
+	1    5650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R?
+U 1 1 5C7E8666
+P 6750 1950
+F 0 "R?" H 6809 1996 50  0000 L CNN
+F 1 "R_Small" H 6809 1905 50  0000 L CNN
+F 2 "" H 6750 1950 50  0001 C CNN
+F 3 "~" H 6750 1950 50  0001 C CNN
+	1    6750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5C7E8767
+P 7500 1950
+F 0 "C?" H 7592 1996 50  0000 L CNN
+F 1 "C_Small" H 7592 1905 50  0000 L CNN
+F 2 "" H 7500 1950 50  0001 C CNN
+F 3 "~" H 7500 1950 50  0001 C CNN
+	1    7500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_Small D?
+U 1 1 5C7E8895
+P 6450 2500
+F 0 "D?" H 6450 2735 50  0000 C CNN
+F 1 "LED_Small" H 6450 2644 50  0000 C CNN
+F 2 "" V 6450 2500 50  0001 C CNN
+F 3 "~" V 6450 2500 50  0001 C CNN
+	1    6450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5C7E89F2
+P 9550 2100
+F 0 "D?" H 9891 2146 50  0000 L CNN
+F 1 "WS2812B" H 9891 2055 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9600 1800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9650 1725 50  0001 L TNN
+	1    9550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Resonator_Small Y?
+U 1 1 5C7E8C81
+P 8000 2700
+F 0 "Y?" H 8188 2696 50  0000 L CNN
+F 1 "Resonator_Small" H 8188 2605 50  0000 L CNN
+F 2 "" H 7975 2700 50  0001 C CNN
+F 3 "~" H 7975 2700 50  0001 C CNN
+	1    8000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_PHOTO R?
+U 1 1 5C7E8E03
+P 6450 3200
+F 0 "R?" H 6520 3246 50  0000 L CNN
+F 1 "R_PHOTO" H 6520 3155 50  0000 L CNN
+F 2 "" V 6500 2950 50  0001 L CNN
+F 3 "~" H 6450 3150 50  0001 C CNN
+	1    6450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5C7E8FCC
+P 8850 3500
+F 0 "J?" H 8877 3476 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 8877 3385 50  0000 L CNN
+F 2 "" H 8850 3500 50  0001 C CNN
+F 3 "~" H 8850 3500 50  0001 C CNN
+	1    8850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Buzzer BZ?
+U 1 1 5C7E941E
+P 7600 4050
+F 0 "BZ?" H 7753 4079 50  0000 L CNN
+F 1 "Buzzer" H 7753 3988 50  0000 L CNN
+F 2 "" V 7575 4150 50  0001 C CNN
+F 3 "~" V 7575 4150 50  0001 C CNN
+	1    7600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_POT RV?
+U 1 1 5C7E956D
+P 6600 4250
+F 0 "RV?" H 6530 4296 50  0000 R CNN
+F 1 "R_POT" H 6530 4205 50  0000 R CNN
+F 2 "" H 6600 4250 50  0001 C CNN
+F 3 "~" H 6600 4250 50  0001 C CNN
+	1    6600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor:DHT11 U?
+U 1 1 5C7E9687
+P 4450 2200
+F 0 "U?" H 4220 2246 50  0000 R CNN
+F 1 "DHT11" H 4220 2155 50  0000 R CNN
+F 2 "" H 4600 2450 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 4600 2450 50  0001 C CNN
+	1    4450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_Small D?
+U 1 1 5C7E985B
+P 6450 2650
+F 0 "D?" H 6450 2885 50  0000 C CNN
+F 1 "LED_Small" H 6450 2794 50  0000 C CNN
+F 2 "" V 6450 2650 50  0001 C CNN
+F 3 "~" V 6450 2650 50  0001 C CNN
+	1    6450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_Small D?
+U 1 1 5C7E993A
+P 6150 2500
+F 0 "D?" H 6150 2735 50  0000 C CNN
+F 1 "LED_Small" H 6150 2644 50  0000 C CNN
+F 2 "" V 6150 2500 50  0001 C CNN
+F 3 "~" V 6150 2500 50  0001 C CNN
+	1    6150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_Small D?
+U 1 1 5C7E9A02
+P 6150 2650
+F 0 "D?" H 6150 2885 50  0000 C CNN
+F 1 "LED_Small" H 6150 2794 50  0000 C CNN
+F 2 "" V 6150 2650 50  0001 C CNN
+F 3 "~" V 6150 2650 50  0001 C CNN
+	1    6150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5C7E9C4B
+P 9300 1400
+F 0 "D?" H 9641 1446 50  0000 L CNN
+F 1 "WS2812B" H 9641 1355 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9350 1100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9400 1025 50  0001 L TNN
+	1    9300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5C7E9D01
+P 8500 1250
+F 0 "D?" H 8841 1296 50  0000 L CNN
+F 1 "WS2812B" H 8841 1205 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8550 950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8600 875 50  0001 L TNN
+	1    8500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5C7E9D9B
+P 8600 1900
+F 0 "D?" H 8941 1946 50  0000 L CNN
+F 1 "WS2812B" H 8941 1855 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8650 1600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8700 1525 50  0001 L TNN
+	1    8600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5C7E9E17
+P 9500 2850
+F 0 "D?" H 9841 2896 50  0000 L CNN
+F 1 "WS2812B" H 9841 2805 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9550 2550 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9600 2475 50  0001 L TNN
+	1    9500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5C7E9F83
+P 10400 2650
+F 0 "D?" H 10741 2696 50  0000 L CNN
+F 1 "WS2812B" H 10741 2605 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10450 2350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10500 2275 50  0001 L TNN
+	1    10400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5C7EA0C1
+P 10200 3400
+F 0 "D?" H 10541 3446 50  0000 L CNN
+F 1 "WS2812B" H 10541 3355 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10250 3100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10300 3025 50  0001 L TNN
+	1    10200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW?
+U 1 1 5C7EA7BA
+P 4200 3350
+F 0 "SW?" H 4200 3635 50  0000 C CNN
+F 1 "SW_Push_Dual" H 4200 3544 50  0000 C CNN
+F 2 "" H 4200 3550 50  0001 C CNN
+F 3 "" H 4200 3550 50  0001 C CNN
+	1    4200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_Dual SW?
+U 1 1 5C7EA93D
+P 4250 4000
+F 0 "SW?" H 4250 4285 50  0000 C CNN
+F 1 "SW_Push_Dual" H 4250 4194 50  0000 C CNN
+F 2 "" H 4250 4200 50  0001 C CNN
+F 3 "" H 4250 4200 50  0001 C CNN
+	1    4250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Mini J?
+U 1 1 5C7EACED
+P 8950 4550
+F 0 "J?" H 9005 5017 50  0000 C CNN
+F 1 "USB_B_Mini" H 9005 4926 50  0000 C CNN
+F 2 "" H 9100 4500 50  0001 C CNN
+F 3 "~" H 9100 4500 50  0001 C CNN
+	1    8950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C7EB598
+P 4250 1100
+F 0 "#PWR?" H 4250 950 50  0001 C CNN
+F 1 "+5V" H 4265 1273 50  0000 C CNN
+F 2 "" H 4250 1100 50  0001 C CNN
+F 3 "" H 4250 1100 50  0001 C CNN
+	1    4250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C7EB88F
+P 5150 2450
+F 0 "#PWR?" H 5150 2200 50  0001 C CNN
+F 1 "GND" H 5155 2277 50  0000 C CNN
+F 2 "" H 5150 2450 50  0001 C CNN
+F 3 "" H 5150 2450 50  0001 C CNN
+	1    5150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED_RGB D?
+U 1 1 5C7EEAF3
+P 3100 5150
+F 0 "D?" H 3100 5647 50  0000 C CNN
+F 1 "LED_RGB" H 3100 5556 50  0000 C CNN
+F 2 "" H 3100 5100 50  0001 C CNN
+F 3 "~" H 3100 5100 50  0001 C CNN
+	1    3100 5150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
