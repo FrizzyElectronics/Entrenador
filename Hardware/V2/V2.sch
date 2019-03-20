@@ -2228,60 +2228,6 @@ Wire Wire Line
 	800  1850 900  1850
 Wire Wire Line
 	1300 1850 1450 1850
-$Comp
-L device:C_Small C18
-U 1 1 5C96B953
-P 1050 2050
-F 0 "C18" V 1000 1950 50  0000 C CNN
-F 1 "22pF" V 1100 2200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1050 2050 50  0001 C CNN
-F 3 "~" H 1050 2050 50  0001 C CNN
-	1    1050 2050
-	0    1    1    0   
-$EndComp
-$Comp
-L device:Crystal_Small Y1
-U 1 1 5C96D7B0
-P 1400 2150
-F 0 "Y1" V 1354 2238 50  0000 L CNN
-F 1 "16MHz" V 1445 2238 50  0000 L CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 1400 2150 50  0001 C CNN
-F 3 "~" H 1400 2150 50  0001 C CNN
-	1    1400 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L device:C_Small C19
-U 1 1 5C96ED3B
-P 1050 2250
-F 0 "C19" V 1000 2150 50  0000 C CNN
-F 1 "22pF" V 1100 2400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1050 2250 50  0001 C CNN
-F 3 "~" H 1050 2250 50  0001 C CNN
-	1    1050 2250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	800  2150 900  2150
-Wire Wire Line
-	900  2150 900  2050
-Wire Wire Line
-	900  2050 950  2050
-Wire Wire Line
-	900  2150 900  2250
-Wire Wire Line
-	900  2250 950  2250
-Connection ~ 900  2150
-Wire Wire Line
-	1150 2250 1400 2250
-Wire Wire Line
-	1400 2250 1700 2250
-Connection ~ 1400 2250
-Wire Wire Line
-	1400 2050 1700 2050
-Wire Wire Line
-	1400 2050 1150 2050
-Connection ~ 1400 2050
 Text Notes 650  4900 0    79   ~ 0
 BLUETOOTH
 Wire Notes Line
@@ -2391,4 +2337,21 @@ Wire Wire Line
 	9100 850  9100 1050
 Wire Wire Line
 	6200 1300 6200 1700
+$Comp
+L device:Resonator_Small Y1
+U 1 1 5C93DA74
+P 1450 2150
+F 0 "Y1" V 1350 1900 50  0000 C CNN
+F 1 "16MHz" V 1550 1850 50  0000 C CNN
+F 2 "lib_fp:RESONATOR-SMD-3.2X1.3" H 1425 2150 50  0001 C CNN
+F 3 "~" H 1425 2150 50  0001 C CNN
+	1    1450 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 2050 1700 2050
+Wire Wire Line
+	1550 2250 1700 2250
+Wire Wire Line
+	800  2150 1250 2150
 $EndSCHEMATC
