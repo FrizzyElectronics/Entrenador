@@ -1722,9 +1722,9 @@ Wire Wire Line
 	2900 3350 2950 3350
 Wire Wire Line
 	2900 3250 2950 3250
-Text Label 2950 3250 0    39   ~ 0
+Text Label 3250 3300 0    39   ~ 0
 RXI
-Text Label 2950 3350 0    39   ~ 0
+Text Label 3250 3400 0    39   ~ 0
 TXO
 Text Notes 3450 3200 2    39   ~ 0
 D2
@@ -2268,17 +2268,6 @@ Wire Wire Line
 	650  5500 650  5350
 Wire Wire Line
 	650  5350 1150 5350
-$Comp
-L power:+5V #PWR028
-U 1 1 5CA48945
-P 600 5150
-F 0 "#PWR028" H 600 5000 50  0001 C CNN
-F 1 "+5V" H 615 5323 50  0000 C CNN
-F 2 "" H 600 5150 50  0001 C CNN
-F 3 "" H 600 5150 50  0001 C CNN
-	1    600  5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	600  5150 600  5450
 Wire Wire Line
@@ -2354,4 +2343,19 @@ Wire Wire Line
 	1550 2250 1700 2250
 Wire Wire Line
 	800  2150 1250 2150
+Text GLabel 2950 3350 2    39   Input ~ 0
+BT_RX
+Text GLabel 2950 3250 2    39   Input ~ 0
+BT_TX
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C9786A5
+P 600 5150
+F 0 "#PWR?" H 600 5000 50  0001 C CNN
+F 1 "+3V3" H 600 5300 50  0000 C CNN
+F 2 "" H 600 5150 50  0001 C CNN
+F 3 "" H 600 5150 50  0001 C CNN
+	1    600  5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
