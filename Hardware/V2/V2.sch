@@ -1615,8 +1615,6 @@ A4
 Text Notes 3050 4250 0    39   ~ 0
 A5
 Wire Wire Line
-	2900 4250 3000 4250
-Wire Wire Line
 	2900 4650 3000 4650
 Wire Wire Line
 	2900 4750 3000 4750
@@ -1655,8 +1653,6 @@ Text GLabel 2900 4050 2    39   Input ~ 0
 NEO
 Text Notes 3150 3800 2    39   ~ 0
 D6
-Wire Wire Line
-	2900 3750 2950 3750
 Text Notes 3350 3700 2    39   ~ 0
 D12
 Text GLabel 3000 3650 2    39   Input ~ 0
@@ -2348,14 +2344,16 @@ BT_RX
 Text GLabel 2950 3250 2    39   Input ~ 0
 BT_TX
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0125
 U 1 1 5C9786A5
 P 600 5150
-F 0 "#PWR?" H 600 5000 50  0001 C CNN
+F 0 "#PWR0125" H 600 5000 50  0001 C CNN
 F 1 "+3V3" H 600 5300 50  0000 C CNN
 F 2 "" H 600 5150 50  0001 C CNN
 F 3 "" H 600 5150 50  0001 C CNN
 	1    600  5150
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2900 3750
+NoConn ~ 2900 4250
 $EndSCHEMATC
